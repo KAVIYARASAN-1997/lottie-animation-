@@ -1,0 +1,23 @@
+<lottie-player id="clickPlayer" src="https://assets10.lottiefiles.com/packages/lf20_fclga8fl.json" style="width:400px; height: 400px;">"></lottie-player>
+
+<script>
+LottieInteractivity.create({
+    player:'#clickPlayer',
+    mode:"chain",
+    actions: [
+        {
+            state: 'click',
+            forceFlag: true,
+            transition: 'click',
+            count: 5
+        },
+        {
+            path: 'https://assets1.lottiefiles.com/packages/lf20_ISbOsd.json',
+            frames: 'confetti',
+            state: 'autoplay',
+            reset: true,
+            transition: 'onComplete'
+        }
+    ]
+});
+</script>
