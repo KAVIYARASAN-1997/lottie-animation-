@@ -1,0 +1,11 @@
+<script>
+  LottieInteractivity.create({
+      player:'#fourteenthLottie',
+      mode:"cursor",
+      actions: [
+          {
+              type: "pauseHold"
+          }
+      ]
+  });
+  </script>
