@@ -1,0 +1,25 @@
+<lottie-player id="chainLoadPlayer" src="https://assets10.lottiefiles.com/packages/lf20_fclga8fl.json" style="width:400px; height: 400px;">"></lottie-player>
+
+<script>
+LottieInteractivity.create({
+    player: '#chainLoadPlayer',
+    mode: 'chain',
+    actions: [
+    {
+        state: 'click',
+        transition: 'onComplete'
+    },
+    {
+        state: 'autoplay',
+        transition: 'onComplete',
+        path: 'https://assets6.lottiefiles.com/packages/lf20_opn6z1qt.json'
+    },
+    {
+        state: 'autoplay',
+        transition: 'onComplete',
+        path: 'https://assets9.lottiefiles.com/packages/lf20_pKiaUR.json',
+        reset: true
+    }
+    ]
+});
+</script>
