@@ -1,0 +1,24 @@
+  <script>
+  LottieInteractivity.create({
+      player:'#explodingBird',
+      mode:"chain",
+      actions: [
+          {
+              state: 'loop',
+              transition: 'click',
+              frames: 'bird'
+          },
+          {
+              state: 'autoplay',
+              transition: 'onComplete',
+              frames: 'explosion'
+          },
+          {
+              state: 'autoplay',
+              transition: 'onComplete',
+              frames: 'feathers',
+              reset: true
+          }
+      ]
+  });
+  </script>
