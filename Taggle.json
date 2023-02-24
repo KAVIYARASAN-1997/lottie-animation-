@@ -1,0 +1,11 @@
+<script>
+LottieInteractivity.create({
+    player:'#toggleLottie',
+    mode:"cursor",
+    actions: [
+        {
+            type: "toggle"
+        }
+]
+});
+</script>
