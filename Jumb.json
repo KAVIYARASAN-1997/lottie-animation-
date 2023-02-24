@@ -1,0 +1,33 @@
+<lottie-player id="jumpToPlayer" src="https://assets10.lottiefiles.com/packages/lf20_fclga8fl.json" style="width:400px; height: 400px;">"></lottie-player>
+
+<script>
+LottieInteractivity.create({
+    player: '#jumpToPlayer',
+    mode: 'chain',
+    actions: [
+      {
+        state: 'click',
+        transition: 'onComplete'
+      },
+    {
+        state: 'autoplay',
+        frames: 'triangle',
+        transition: 'onComplete',
+        path: 'https://assets7.lottiefiles.com/packages/lf20_lxd6qbf3.json'
+      },
+      {
+        state: 'autoplay',
+        frames: 'square',
+        transition: 'onComplete',
+        path: 'https://assets7.lottiefiles.com/packages/lf20_lxd6qbf3.json'
+      },
+      {
+        state: 'autoplay',
+        frames: 'brocolli',
+        transition: 'onComplete',
+        path: 'https://assets7.lottiefiles.com/packages/lf20_lxd6qbf3.json',
+        jumpTo: 1
+      }
+    ]
+  });
+</script>
