@@ -1,0 +1,20 @@
+<lottie-player id="thirdLottie" src="https://assets10.lottiefiles.com/packages/lf20_fclga8fl.json" style="width:400px; height: 400px;">"></lottie-player>
+
+<script>
+LottieInteractivity.create({
+    mode:"scroll",
+    player: "#thirdLottie"
+    actions: [
+        {
+            visibility:[0,0.3],
+            type: "stop",
+            frames: [0]
+        },
+        {
+        visibility: [0.3,1],
+            type: "seek",
+            frames: [0, 300]
+        }
+    ]
+});
+</script>
