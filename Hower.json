@@ -1,0 +1,23 @@
+<lottie-player id="hoverPlayer" src="https://assets10.lottiefiles.com/packages/lf20_fclga8fl.json" style="width:400px; height: 400px;">"></lottie-player>
+
+  <script>
+  LottieInteractivity.create({
+      player: '#hoverPlayer',
+      mode: 'chain',
+      actions: [
+          {
+              state: 'hover',
+              forceFlag: true,
+              transition: 'hover',
+              path: 'https://assets10.lottiefiles.com/packages/lf20_fclga8fl.json',
+              count: 5
+          },
+          {
+              path: 'https://assets1.lottiefiles.com/packages/lf20_ISbOsd.json',
+              state: 'autoplay',
+              reset: true,
+              transition: 'onComplete'
+          }
+      ]
+  });
+  </script>
