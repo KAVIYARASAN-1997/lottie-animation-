@@ -1,2 +1,1 @@
-# lottie-animation-
-Animation java
+#animation
