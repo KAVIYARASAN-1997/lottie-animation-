@@ -1,0 +1,21 @@
+<lottie-player id="holdPlayer" src="https://assets10.lottiefiles.com/packages/lf20_fclga8fl.json" style="width:400px; height: 400px;">"></lottie-player>
+
+  <script>
+  LottieInteractivity.create({
+  player: '#holdPlayer',
+  mode: 'chain',
+  actions: [
+      {
+          state: 'none',
+          transition: 'hold',
+          frames: [0, 300]
+      },
+      {
+          path: 'https://assets4.lottiefiles.com/packages/lf20_7zara4iv.json',
+          state: 'autoplay',
+          transition: 'onComplete',
+          reset: true
+      }
+  ]
+  });
+  </script>
